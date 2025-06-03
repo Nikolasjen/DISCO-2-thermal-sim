@@ -1,0 +1,1 @@
+from .simuator_SatOP_plugin import DiscoSim as PluginClass

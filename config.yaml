@@ -1,0 +1,22 @@
+name: DiscoSim
+requirements: [pydantic, fastapi, MPh, matplotlib, numpy]
+dependencies: []
+capabilities: [http.add_routes]
+
+targets:
+  startup:
+  shutdown:
+  
+comsol_model: DISCO_thermal_analysis.mph
+components:
+  - name: Camera
+    type: camera
+    thermal_limits:
+      - name: max_temperature
+        value: 35
+        unit: C
+      - name: min_temperature
+        value: -10
+        unit: C
+
+
