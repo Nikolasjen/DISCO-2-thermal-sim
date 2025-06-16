@@ -8,7 +8,8 @@ The COMSOL model that this tool relies on is too large for GitHub and is not inc
 
 
 ### Limitations
-- On windows python can be installed through their windows store... This isolates the python installation in a "package" which the Comsol software can not move out of to find the java installation. This is a problem as Mph uses Java to run the Comsol client/server and virtual environment - TODO: move this to README.md instead of report
+- On windows python can be installed through their windows store. This isolates the python installation in a "package" which the Comsol software can not move out of to find the java installation.
+<!-- This is a problem as Mph uses Java to run the Comsol client/server and virtual environment -->
 
 
 
